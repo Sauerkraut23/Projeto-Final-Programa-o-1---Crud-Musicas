@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Disco de vinil">
+  <circle cx="100" cy="100" r="92" fill="#111"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="100" cy="100" r="66" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="100" cy="100" r="54" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="100" cy="100" r="34" fill="#f5a623"/>
+  <circle cx="100" cy="100" r="5" fill="#111"/>
+  <path d="M60 40 A78 78 0 0 1 150 52" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="5" stroke-linecap="round"/>
+</svg>

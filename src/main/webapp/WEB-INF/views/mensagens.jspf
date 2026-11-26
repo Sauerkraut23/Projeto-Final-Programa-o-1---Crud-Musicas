@@ -1,0 +1,20 @@
+<c:if test="${not empty sessionScope.msgSucesso}">
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <c:out value="${sessionScope.msgSucesso}" />
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+    </div>
+    <c:remove var="msgSucesso" scope="session" />
+</c:if>
+<c:if test="${not empty sessionScope.msgErro}">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <c:out value="${sessionScope.msgErro}" />
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+    </div>
+    <c:remove var="msgErro" scope="session" />
+</c:if>
+<%-- Erro de validação enviado pelo controller via forward --%>
+<c:if test="${not empty requestScope.erro}">
+    <div class="alert alert-danger" role="alert">
+        <c:out value="${requestScope.erro}" />
+    </div>
+</c:if>

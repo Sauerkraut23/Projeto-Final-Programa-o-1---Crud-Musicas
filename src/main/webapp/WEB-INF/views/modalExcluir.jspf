@@ -1,0 +1,19 @@
+<div class="modal fade" id="modalExcluir" tabindex="-1" aria-labelledby="tituloModalExcluir" aria-hidden="true">
+    <div class="modal-dialog">
+        <form class="modal-content" method="post" action="">
+            <div class="modal-header">
+                <h2 class="modal-title h5" id="tituloModalExcluir">Confirmar exclusão</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body">
+                Tem certeza de que deseja excluir <strong class="nome-registro"></strong>?
+                Esta ação não pode ser desfeita.
+                <input type="hidden" name="id" value="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-danger">Excluir</button>
+            </div>
+        </form>
+    </div>
+</div>
